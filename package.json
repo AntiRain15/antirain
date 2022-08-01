@@ -1,0 +1,19 @@
+{
+  "name": "antirain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntiRain15/antirain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntiRain15/antirain/issues"
+  },
+  "homepage": "https://github.com/AntiRain15/antirain#readme"
+}
