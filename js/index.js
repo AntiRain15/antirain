@@ -1,3 +1,3 @@
-function func(asldfjasasdjkfhsdjfowekfhoiweqhrfjcxnmsdajkfhsdjn) {
-    console.log(asldfjasasdjkfhsdjfowekfhoiweqhrfjcxnmsdajkfhsdjn);
+function func(antirain) {
+    console.log(antirain);
 }
