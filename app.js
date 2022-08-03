@@ -1,21 +1,29 @@
 const express = require('express'); 
+const bodyParser = require('body-parser');
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res)=>{
-    res.send('get 실행 중');
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extends: true }))
+
+app.get('/p/:p', (req, res)=>{
+    res.send(`${req.params.p}`);
 });
 
-app.post('/', (req, res)=>{
-    res.send('post 실행 중');
+app.get('/q', (req, res)=>{
+    res.send(`${req.query}`);
 });
 
-app.patch('/', (req, res)=>{
-    res.send('patch 실행 중');
+app.post('/q', (req, res)=>{
+    res.send(`${req.query}`);
 });
 
-app.delete('/', (req, res)=>{
-    res.send('send 실행 중');
+app.patch('/b', (req, res)=>{
+    res.send(`${req.body}`);
+});
+
+app.delete('/b', (req, res)=>{
+    res.send(`${req.body}`);
 });
 
 app.listen(port, () => {});
