@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AntiRain15/antirain/issues"
   },
-  "homepage": "https://github.com/AntiRain15/antirain#readme"
+  "homepage": "https://github.com/AntiRain15/antirain#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
