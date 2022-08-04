@@ -18,5 +18,6 @@
   "homepage": "https://github.com/AntiRain15/antirain#readme",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "devDependencies": {}
 }
